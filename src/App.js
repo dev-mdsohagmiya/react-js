@@ -1,21 +1,36 @@
 import React, { Component } from 'react';
-import Button from './Button';
 
 export default class App extends Component {
-  state = {change:"red"}
-
-   myFnc = (value)=>{
-     this.setState({
-       change:value
-     })
-   }
-  
+  state = {date:new Date(),language:"en-US"}
+  componentDidMount(){
+  this.clearTime =   setInterval(()=>{
+      this.setState({date:new Date()})
+    },1000)
+  }
+  componentWillUnmount(){
+    clearInterval(this.clearTime)
+  }
+  languageChange = (value)=>{
+       this.setState({language:value})
+  }
   render() {
-  const {change} = this.state
+    const {date,language}= this.state;
+    // let button ; 
+    // if(language==="bn-BD"){
+    //   button = (
+    //     <button onClick={()=>this.languageChange("en-US")}>Click</button>
+    //   )
+    // }else{
+    //   button = ( <button onClick={()=>this.languageChange("bn-BD")}>Click</button>)
+    // }
     return <div>
-
-     <Button for={this.myFnc.bind(this,"green")}></Button>
-      <div style={{color:change}}>shohag islam sajjad</div>
+          <h1 style={{textAlign:"center"}}> {date.toLocaleTimeString(language)}
+            
+          </h1>
+          {
+            language==="bn-BD"?(<button onClick={()=>this.languageChange("en-US")}>Click</button>):
+            <button onClick={()=>this.languageChange("bn-BD")}>Click</button>
+          }
     </div>;
   }
 }
