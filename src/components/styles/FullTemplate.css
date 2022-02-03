@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080f1d!important
+    
+}
+.rootTemplate{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #111827;
+    ;
+    
+
+    
+}
+.divTop{
+    height: 40px;
+    background-color: #080f1d;
+}
+.topBar{
+    height: 50px;
+}
+@media only screen and (max-width: 1199px) {
+    .rootTemplate{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .rootTemplate{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .rootTemplate{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}

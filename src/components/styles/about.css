@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "font-ms";
+    src: url(../styles/SourceSerif4-Italic-VariableFont_opsz\,wght.ttf);
+}
+.about{
+    font-family: font-ms;
+}
+.about .dec{
+    font-size: 18px;
+}
+.about .contract-info{
+    font-size: 18px;
+}
+.about .link{
+    color: #A55858 ;
+}
+.title{
+    font-size: 25px;
+    background-color: #080f1d;
+                display: inline-block;
+                padding: 5px 20px;
+                color: #6B7280;
+                border-radius: 2px;
+}
+.about .icons ul li{
+list-style-type: none;
+display: inline-block;
+background-color: #080f1d;
+padding: 5px 10px;
+margin-left: 5px;
+border-radius: 1px;
+
+
+}.about .icons a{
+    color: #6B7280
+}
+.about .icons{
+    transform: translateX(-8%);
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  
+    .title{
+        margin-top: 30px;
+        padding: 2px 5px!important;
+    }
+}
