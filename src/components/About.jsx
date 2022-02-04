@@ -6,7 +6,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <div className="row py-5 about">
+        <div className="row  about">
           <div className=" col-lg-1 col-12"></div>
           <div className=" col-lg-4 col-8">
             <img
@@ -32,12 +32,12 @@ export default class About extends Component {
               something new"
             </div>
             <div className="contract-info mt-2">
-              <span style={{ color: "#6B7280" }}>
+              <span style={{ color: "white" }}>
                 <b>E-mail:</b>&nbsp;
                 <span className="link">learnwithmsbhh@gmail.com</span>
               </span>{" "}
               <br />
-              <span style={{ color: "#6B7280" }}>
+              <span style={{ color: "white" }}>
                 <b>Phone:</b>&nbsp;<span className="link">+8801724686857</span>
               </span>
             </div>

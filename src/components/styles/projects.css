@@ -6,6 +6,7 @@
     color: #6B7280;
     border-radius: 2px;
     margin-top: 5px;
+    color: white;
 }
 .projects{
     font-family: font-ms;
@@ -31,10 +32,12 @@ padding: 10px;
     font-size: 25px;
     color: #6B7280;
     display: block;
+    color: white;
 }
 .p-sub-title{
     font: 22px;
-    color: #1E293B;
+    color: #6B7280;
+    color: white;
 
 
    display: block;
@@ -50,6 +53,7 @@ padding: 10px;
     margin-left: 5px ;
     margin-top: 5px;
     color: #6B7280;
+    color: white;
 }
 .sub-11 img{
     border: unset!important;
@@ -61,6 +65,7 @@ padding: 10px;
 }
 .btn-code{
     padding: 5px;
+    
 
 }
 .btn-live{
@@ -71,11 +76,13 @@ padding: 10px;
     background-color: #111827;
     color: #A55858 ;
     height: 40px;
+    color: white;
 }
 .btn-live .projects-btn{
     background-color: #111827;
     height: 40px;
     color: #A55858 ;
+    color: white;
 
 }
 .btn-code .projects-btn span{
@@ -93,3 +100,12 @@ text-decoration: none;
 /* .p-btn{
     padding: 10px;
 } */
+
+@media only screen and (max-width: 767px) {
+    .sub-11 ul{
+        transform: translateX(-12%);
+    }
+    .projects{
+        margin-top: 0;
+    }
+}

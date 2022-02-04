@@ -1,0 +1,70 @@
+.lander{
+    height: 100vh;
+    font-family: font-ms;
+    color: white;
+}
+.lander .box{
+  text-align: center;
+    height: 100%;
+}
+
+.hello{
+    padding-top: 25%;
+    text-align: center;
+   
+}
+.arrow{
+    padding-top: 20%;
+    text-align: center;
+}
+.lander .arrow{
+    animation-name: animateArrow;
+   animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes animateArrow {
+    form{
+        margin-top: 0px;
+        
+    }
+    to{
+        margin-top: 70px;
+        
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .hello{
+        padding-top: 40%;
+        text-align: center;
+       
+    }
+    .arrow{
+        padding-top: 30%;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    .hello{
+        padding-top: 50%;
+        text-align: center;
+       
+    }
+    .arrow{
+        padding-top: 40%;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .hello{
+        padding-top: 70%;
+        text-align: center;
+       
+    }
+    .arrow{
+        padding-top: 50%;
+        text-align: center;
+    }
+  }

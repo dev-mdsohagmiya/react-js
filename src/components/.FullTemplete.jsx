@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import About from './About';
 import Endbar from './Endbar';
+import Lander from './Lander';
 import Projects from './Projects';
 import Skills from './Skills';
 
@@ -11,7 +12,7 @@ class FullTemplete extends Component {
         return (
             <div className="rootTemplate">
                <div className="container-fluid">
-
+               <Lander/>
                <About></About>
                <Skills></Skills>
                <Projects></Projects>

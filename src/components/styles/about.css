@@ -4,12 +4,17 @@
 }
 .about{
     font-family: font-ms;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
 }
 .about .dec{
     font-size: 18px;
+    color: white!important;
 }
 .about .contract-info{
     font-size: 18px;
+    
 }
 .about .link{
     color: #A55858 ;
@@ -21,7 +26,9 @@
                 padding: 5px 20px;
                 color: #6B7280;
                 border-radius: 2px;
+                color: white;
 }
+
 .about .icons ul li{
 list-style-type: none;
 display: inline-block;
@@ -32,17 +39,36 @@ border-radius: 1px;
 
 
 }.about .icons a{
-    color: #6B7280
+    color: #6B7280;
+    color: white;
 }
 .about .icons{
     transform: translateX(-8%);
     margin-top: 25px;
 }
 
+@media only screen and (max-width: 991px) {
+    .about .icons{
+        transform: translateX(-4%);
+        
+    }
+    .about .title{
+        margin-top: 20px;
+    }
+}
 @media only screen and (max-width: 767px) {
   
     .title{
         margin-top: 30px;
         padding: 2px 5px!important;
+    }
+    .about{
+       
+        padding-top: unset;
+        padding-bottom: unset!important;
+    }
+    .about .icons{
+        transform: translateX(-11%);
+        margin-top: 25px;
     }
 }
