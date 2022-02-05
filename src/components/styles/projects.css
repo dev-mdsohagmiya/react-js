@@ -32,12 +32,12 @@ padding: 10px;
     font-size: 25px;
     color: #6B7280;
     display: block;
-    color: white;
+    color: #CBD5E1;
 }
 .p-sub-title{
     font: 22px;
     color: #6B7280;
-    color: white;
+    color: #CBD5E1;
 
 
    display: block;
@@ -53,12 +53,15 @@ padding: 10px;
     margin-left: 5px ;
     margin-top: 5px;
     color: #6B7280;
-    color: white;
+    color: #CBD5E1;
 }
 .sub-11 img{
     border: unset!important;
     background-color: unset!important;
     border-radius: 5px;
+    height: 260px;
+    border-radius: 25px;
+    display: block;
 }
 .sub-11 .li-page{
     background-color: #1E293B;
@@ -76,13 +79,13 @@ padding: 10px;
     background-color: #111827;
     color: #A55858 ;
     height: 40px;
-    color: white;
+    
 }
 .btn-live .projects-btn{
     background-color: #111827;
     height: 40px;
     color: #A55858 ;
-    color: white;
+  
 
 }
 .btn-code .projects-btn span{

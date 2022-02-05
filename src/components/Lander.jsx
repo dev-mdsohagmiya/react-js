@@ -10,7 +10,9 @@ export default class Lander extends Component {
             
                <div  className="hello">
                 <div className="sub-hello">
-                <h1>Hello There...</h1> 
+                <h1>Hello There,</h1> 
+                <h1>Shohag Islam Sajjad Here</h1>
+                <h1>......</h1>
                 </div>
                </div>
                 <div className="arrow">
@@ -18,6 +20,8 @@ export default class Lander extends Component {
                 </div>
            
         </div>
+        <hr style={{backgroundColor:"#365314"}} />
+
     </div>;
   }
 }

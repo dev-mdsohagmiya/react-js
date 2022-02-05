@@ -9,7 +9,7 @@
     color: #6B7280;
     border-radius: 2px;
     margin-top: 5px;
-    color: white;
+    color: #CBD5E1;
 }
 .skills .row {
    padding-top: 20px;
@@ -33,12 +33,12 @@ height: auto;
  } 
  .sub-col1 span{
      font-size: 20px;
-     color: #365314;
+     color: #CBD5E1;
  }  
 
  .sub-col2 ul li{
     color: #6B7280;
-    color: white;
+    color: #CBD5E1;
 
  }
 

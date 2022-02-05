@@ -6,11 +6,13 @@
     font-family: font-ms;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #080f1d;
+
     
 }
 .about .dec{
     font-size: 18px;
-    color: white!important;
+    color: #CBD5E1    !important;
 }
 .about .contract-info{
     font-size: 18px;
@@ -21,26 +23,27 @@
 }
 .title{
     font-size: 25px;
-    background-color: #080f1d;
+    background-color: #111827;
+
                 display: inline-block;
                 padding: 5px 20px;
                 color: #6B7280;
                 border-radius: 2px;
-                color: white;
+                color: #CBD5E1;
 }
 
 .about .icons ul li{
 list-style-type: none;
 display: inline-block;
-background-color: #080f1d;
+background-color: #111827;
 padding: 5px 10px;
 margin-left: 5px;
 border-radius: 1px;
 
 
 }.about .icons a{
-    color: #6B7280;
-    color: white;
+    color: #bcbec4;
+ 
 }
 .about .icons{
     transform: translateX(-8%);
