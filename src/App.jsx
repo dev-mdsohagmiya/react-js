@@ -1,14 +1,15 @@
 import React from "react";
 import ReactIcon from "./components/reactIcon";
-import EventBubblingAndStopPropagation from "./components/EventBubbingAndStopPropagation";
+import PassingDataChildToParent from "./components/PASSING_DATA_CHILD_TO_PARENT/PassingDataChildToParent";
 
 function App() {
   return (
     <>
-      <div className="container mx-auto mt-20">
+      <div className="container mx-auto mt-20 text-center">
         <span className="text-[50px]">{/* <ReactIcon /> */}</span>
 
-        <EventBubblingAndStopPropagation />
+        {/* <EventBubblingAndStopPropagation /> */}
+        <PassingDataChildToParent />
       </div>
     </>
   );
